@@ -57,69 +57,69 @@ inquirer.prompt([{
     console.log(`Contact the developers: ${readmeContent.email}`);
 
     let readmeFile = `
-    # ${readmeContent.title}
+# ${readmeContent.title}
 
-    ![License Badge](https://img.shields.io/badge/License-${readmeContent.license}-green?labelColor=434343)
+![License Badge](https://img.shields.io/badge/License-${readmeContent.license.replace(/\s+/g, ``)}-green?labelColor=434343)
 
-    ## Description
+## Description
 
-    ---
+---
 
-    ${readmeContent.description}
+${readmeContent.description}
 
-    ## Table of Contents
+## Table of Contents
 
-    ---
+---
 
-    * [Description](#Description)
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [License](#License)
-    * [Contributing](#Contributing)
-    * [Tests](#Tests)
-    * [Questions](#Questions)
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
 
-    ## Installation
+## Installation
 
-    ---
+---
 
-    ${(readmeContent.installation ? readmeContent.installation : "N/A")}
+${(readmeContent.installation ? readmeContent.installation : "N/A")}
 
-    ## Usage
+## Usage
     
-    ---
+---
 
-    ${readmeContent.usage}
+${readmeContent.usage}
 
-    ## License
+## License
 
-    ---
+---
     
-    This work is licensed under the following license: ${readmeContent.license}
+This work is licensed under the following license: ${readmeContent.license}
 
-    ## Contributing
+## Contributing
     
-    ---
+---
 
-    ${readmeContent.contributing}
+${readmeContent.contributing}
     
-    ## Tests
+## Tests
     
-    ---
+---
 
-    ${(readmeContent.tests ? readmeContent.tests : "N/A")}
+${(readmeContent.tests ? readmeContent.tests : "N/A")}
     
-    ## Questions
+## Questions
     
-    ---
+---
 
-    Discover more projects or get in touch - [${readmeContent.githubUsername}](https://github.com/${readmeContent.githubUsername} "My GitHub Profile")
+Discover more projects or get in touch - [${readmeContent.githubUsername}](https://github.com/${readmeContent.githubUsername} "My GitHub Profile")
 
-    Contact <${readmeContent.email}> with any additional questions or comments.
+Contact <${readmeContent.email}> with any additional questions or comments.
 
     `;
 
-
+    fs.writeFile(`${readmeContent.title}.md`, `${readmeFile}`, (err) => err ? console.error(err) : console.log("readme sucessfully generated"));
 
 });
 
