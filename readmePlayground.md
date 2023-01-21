@@ -27,6 +27,6 @@ thdfg
 ## Questions
 ---
 
-Discover more projects - [AywinK](https://github.com/AywinK "My GitHub Profile")
+Discover more projects or get in touch - [AywinK](https://github.com/AywinK "My GitHub Profile")
 
  Contact <opencode@microsoft.com> with any additional questions or comments.

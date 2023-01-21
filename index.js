@@ -1,4 +1,5 @@
 
+const fs = require("fs");
 const inquirer = require("inquirer");
 
 inquirer.prompt([{
@@ -54,6 +55,71 @@ inquirer.prompt([{
     console.log(`Your tests Instructions are: ${(readmeContent.tests ? readmeContent.tests : "N/A")}`);
     console.log(`Contact the developers: ${readmeContent.githubUsername} - https://github.com/${readmeContent.githubUsername}`);
     console.log(`Contact the developers: ${readmeContent.email}`);
+
+    let readmeFile = `
+    # ${readmeContent.title}
+
+    ![License Badge](https://img.shields.io/badge/License-${readmeContent.license}-green?labelColor=434343)
+
+    ## Description
+
+    ---
+
+    ${readmeContent.description}
+
+    ## Table of Contents
+
+    ---
+
+    * [Description](#Description)
+    * [Installation](#Installation)
+    * [Usage](#Usage)
+    * [License](#License)
+    * [Contributing](#Contributing)
+    * [Tests](#Tests)
+    * [Questions](#Questions)
+
+    ## Installation
+
+    ---
+
+    ${(readmeContent.installation ? readmeContent.installation : "N/A")}
+
+    ## Usage
+    
+    ---
+
+    ${readmeContent.usage}
+
+    ## License
+
+    ---
+    
+    This work is licensed under the following license: ${readmeContent.license}
+
+    ## Contributing
+    
+    ---
+
+    ${readmeContent.contributing}
+    
+    ## Tests
+    
+    ---
+
+    ${(readmeContent.tests ? readmeContent.tests : "N/A")}
+    
+    ## Questions
+    
+    ---
+
+    Discover more projects or get in touch - [${readmeContent.githubUsername}](https://github.com/${readmeContent.githubUsername} "My GitHub Profile")
+
+    Contact <${readmeContent.email}> with any additional questions or comments.
+
+    `;
+
+
 
 });
 
