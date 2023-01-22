@@ -5,7 +5,7 @@
 
 ## Description
 
-short and descriptive
+sbg
 
 ## Table of Contents
 
@@ -19,25 +19,17 @@ short and descriptive
 
 ## Installation
 
-run this
+N/A
 
 
-```
-npm i
-```
-    
 
 ## Usage
 
-run app using
+sfbg
 
 
-```
-node index.js
-```
-    
 
-![Demo](./images/demo.gif)
+![Demo](zddbhthb)
 
 ## License
 
@@ -46,7 +38,7 @@ This work is licensed under the following license: MIT
 ---
 
 
-Copyright 2023 aywink
+Copyright 2023 brtzhdf
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
             
@@ -58,20 +50,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Contributing
 
-create pr
+dhb
 
 ## Tests
 
-run this
+N/A
 
 
-```
-jest tests.js
-```
-    
 
 ## Questions
 
-Discover more projects or get in touch - [aywink](https://github.com/aywink "My GitHub Profile")
+Discover more projects or get in touch - [brtzhdf](https://github.com/brtzhdf "My GitHub Profile")
 
-Contact <ak@email.com> with any additional questions or comments.
+Contact <zdhbtfzdhb@email.com> with any additional questions or comments.
