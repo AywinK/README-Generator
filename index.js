@@ -18,9 +18,17 @@ inquirer.prompt([{
     message: "Provide installation instructions of the application (Leave blank if not applicable)."
 }, {
     type: "input",
+    name: "installationCodeSnippet",
+    message: "Provide a code snippet for the installation process (Leave blank if not applicable)."
+}, {
+    type: "input",
     name: "usage",
     message: "Provide usage information of the application.",
     validate: (userInput) => (userInput ? true : "You must provide usage information.")
+}, {
+    type: "input",
+    name: "usageCodeSnippet",
+    message: "Provide a code snippet for using the application (Leave blank if not applicable)."
 }, {
     type: "list",
     name: "license",
@@ -63,13 +71,9 @@ inquirer.prompt([{
 
 ## Description
 
----
-
 ${readmeContent.description}
 
 ## Table of Contents
-
----
 
 * [Description](#Description)
 * [Installation](#Installation)
@@ -81,37 +85,25 @@ ${readmeContent.description}
 
 ## Installation
 
----
-
 ${(readmeContent.installation ? readmeContent.installation : "N/A")}
 
 ## Usage
     
----
-
 ${readmeContent.usage}
 
 ## License
 
----
-    
 This work is licensed under the following license: ${readmeContent.license}
 
 ## Contributing
     
----
-
 ${readmeContent.contributing}
     
 ## Tests
-    
----
 
 ${(readmeContent.tests ? readmeContent.tests : "N/A")}
     
 ## Questions
-    
----
 
 Discover more projects or get in touch - [${readmeContent.githubUsername}](https://github.com/${readmeContent.githubUsername} "My GitHub Profile")
 
