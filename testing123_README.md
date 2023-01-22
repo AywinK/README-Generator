@@ -1,11 +1,11 @@
 
 # testing123
 
-![License Badge](https://img.shields.io/badge/License-GNU_GPLv3-green?labelColor=434343)
+![License Badge](https://img.shields.io/badge/License-Apache_License_2.0-green?labelColor=434343)
 
 ## Description
 
-shortanddesciptbsa
+grthedb
 
 ## Table of Contents
 
@@ -19,59 +19,59 @@ shortanddesciptbsa
 
 ## Installation
 
-run this
+N/A
 
 ```
-npm i
+
 ```
 
 ## Usage
 
-run app using
+rthedsbgzf
 
 ```
-node index.js
+
 ```
 
-![Demo](./images/demo.gif)
+![Demo](rthesdz)
 
 ## License
 
-This work is licensed under the following license: GNU GPLv3
+This work is licensed under the following license: Apache License 2.0
 
 ---
 
 
-Copyright (C) 2023 aywink 
+Copyright 2023 rthes
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+http://www.apache.org/licenses/LICENSE-2.0
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
 
 
 ## Contributing
 
-create pr
+rthes
 
 ## Tests
 
-run this
+N/A
 
 ```
-jest tests.js
+
 ```
 
 ## Questions
 
-Discover more projects or get in touch - [aywink ](https://github.com/aywink  "My GitHub Profile")
+Discover more projects or get in touch - [rthes](https://github.com/rthes "My GitHub Profile")
 
-Contact <ak@emai.com> with any additional questions or comments.
+Contact <rthesrthesrtedz@gs.vsd> with any additional questions or comments.
